@@ -208,15 +208,7 @@ body {
 .skills-item{
     flex-basis: calc((100%-3*24)/4);
 }
-/* .skills-item::before{
-    display: block;
-    content: "";
-    height: 112px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-color: var(--cloud-color);
-}*/
+
 .icon-skills{
     height: 112px;
     background-color: var(--cloud-color);
@@ -504,8 +496,10 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center; 
-    margin-left: 16px;
     fill: var(--white-color);
+}
+.plane{
+    margin-left: 16px;
 }
 
 .input-button{
